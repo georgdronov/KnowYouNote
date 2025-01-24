@@ -1,0 +1,14 @@
+node_modules/
+
+.env
+
+logs/
+*.log
+
+sequelize-cli/
+
+.DS_Store
+
+Thumbs.db
+
+npm-debug.log
