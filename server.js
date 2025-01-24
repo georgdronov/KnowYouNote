@@ -8,6 +8,8 @@ const PORT = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
+app.use("/api/auth", require("./routes/authRoutes"));
+
 app.get("/", (req, res) => {
   res.send("Server is running!");
 });
